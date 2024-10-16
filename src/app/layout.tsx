@@ -13,7 +13,7 @@ const info = {
   twitter: '@Kamal__Dev',
   description:
     'Full-Stack Developer, Next.js, Always Learning. Crafting web apps.',
-  url: 'https://rohitsinghrawat.tech', //TODO: Update the url
+  url: 'https://vortex-lemon.vercel.app/',
   image: './public/images/avatar.jpeg',
 }
 
