@@ -1,6 +1,6 @@
 import Link from 'next/link'
-import {Separator} from '../ui/separator'
-import {ArrowUpRight} from 'lucide-react'
+import { Separator } from '../ui/separator'
+import { ArrowUpRight } from 'lucide-react'
 
 export const Intro = () => {
   return (

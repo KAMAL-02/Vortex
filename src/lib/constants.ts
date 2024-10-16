@@ -3,7 +3,7 @@ type NavItems = {
   href: string
 }[]
 
-export const navItems: NavItems = [{name: 'Projects', href: '/projects'}]
+export const navItems: NavItems = [{ name: 'Projects', href: '/projects' }]
 
 export const topProjects = [
   {
