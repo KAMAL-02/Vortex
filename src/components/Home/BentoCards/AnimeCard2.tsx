@@ -1,11 +1,9 @@
 'use client'
-
 import Image from 'next/image'
 import BentoCard from './BentoCard'
 import Sanji2 from '../../../../public/images/Sanji-2.jpeg'
 
 const AnimeCard2 = () => {
-
   return (
     <BentoCard className="relative col-span-2 row-span-1 h-56 p-0 transition-all duration-500 hover:scale-95 xs:col-span-1 xs:row-span-2">
       <button className="group size-full">
@@ -21,5 +19,4 @@ const AnimeCard2 = () => {
     </BentoCard>
   )
 }
-
 export default AnimeCard2

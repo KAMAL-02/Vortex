@@ -76,8 +76,6 @@ const fetchGitHubData = async (): Promise<GitHubData> => {
     next: { revalidate: 21600 },
   })
 
-
-
   const data = await response.json()
   if (data.errors) {
     throw new Error('Failed to fetch GitHub data')

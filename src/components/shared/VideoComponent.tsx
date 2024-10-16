@@ -1,6 +1,6 @@
 interface VideoComponentProps {
-  fileName: string;
-  title: string;
+  fileName: string
+  title: string
 }
 
 function VideoComponent({ fileName, title }: VideoComponentProps) {
@@ -18,7 +18,7 @@ function VideoComponent({ fileName, title }: VideoComponentProps) {
       <source src={fileName} type="video/mp4" />
       Your browser does not support the video tag.
     </video>
-  );
+  )
 }
 
-export default VideoComponent;
+export default VideoComponent
