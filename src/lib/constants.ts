@@ -8,6 +8,18 @@ export const navItems: NavItems = [{ name: 'Projects', href: '/projects' }]
 export const topProjects = [
   {
     videoSrc:
+      'https://res.cloudinary.com/dpj8y0x4s/video/upload/v1729768737/20241024-1115-55.7242109_xfvxoe.mp4',
+    imageSrc: '/images/project/Ellipsis.png',
+    title: 'Ellipsis',
+    tags: ['Nextjs', 'Typescript', 'PostgreSQL', 'Prisma ORM', 'Shadcn UI'],
+    timeline: 'Oct 2024',
+    tagline:
+      'A tool to analyze your code or PR providing functionality to directly comment the analysis on Githubs PR',
+    sourceCodeHref: 'https://github.com/KAMAL-02/Ellipsis',
+    liveDemoHref: 'https://ellipsis-ruby.vercel.app/',
+  },
+  {
+    videoSrc:
       'https://res.cloudinary.com/dpj8y0x4s/video/upload/v1729062244/20241016-0702-36.7349933_se5srd.mp4',
     imageSrc: '/images/project/Pages.png',
     title: 'Pages',
