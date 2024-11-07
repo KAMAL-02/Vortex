@@ -28,6 +28,7 @@ export const topProjects = [
     tagline:
       'A chrome extension that lets you create shortcuts to your favourite links and access them easily',
     sourceCodeHref: 'https://github.com/KAMAL-02/QuickLinks',
+    liveDemoHref: 'https://github.com/KAMAL-02/QuickLinks',
   },
   {
     imageSrc: '/images/project/Codehub.png',
