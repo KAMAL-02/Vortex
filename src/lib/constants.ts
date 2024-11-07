@@ -23,7 +23,13 @@ export const topProjects = [
       'https://res.cloudinary.com/dpj8y0x4s/video/upload/v1730994176/Quicklinks_edhzua.mp4',
     imageSrc: '/images/project/QuickLinks.png',
     title: 'QuickLinks',
-    tags: ['Chrome Extension', 'Typescript', 'React', 'Tailwind Css', 'Chrome storage'],
+    tags: [
+      'Chrome Extension',
+      'Typescript',
+      'React',
+      'Tailwind Css',
+      'Chrome storage',
+    ],
     timeline: 'Nov 2024',
     tagline:
       'A chrome extension that lets you create shortcuts to your favourite links and access them easily',
