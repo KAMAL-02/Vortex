@@ -20,14 +20,14 @@ export const topProjects = [
   },
   {
     videoSrc:
-      'https://res.cloudinary.com/dpj8y0x4s/video/upload/v1729062244/20241016-0702-36.7349933_se5srd.mp4',
-    imageSrc: '/images/project/Pages.png',
-    title: 'Pages',
-    tags: ['Nextjs', 'Typescript', 'Shadcn UI', 'Accertnity UI', 'TailwindCSS'],
-    timeline: 'Aug 2024',
-    tagline: 'A website to read your favourite Mangas',
-    sourceCodeHref: 'https://github.com/KAMAL-02/Pages',
-    liveDemoHref: 'https://pages-nine-eta.vercel.app/',
+      'https://res.cloudinary.com/dpj8y0x4s/video/upload/v1730994176/Quicklinks_edhzua.mp4',
+    imageSrc: '/images/project/QuickLinks.png',
+    title: 'QuickLinks',
+    tags: ['Chrome Extension', 'Typescript', 'React', 'Tailwind Css', 'Chrome storage'],
+    timeline: 'Nov 2024',
+    tagline:
+      'A chrome extension that lets you create shortcuts to your favourite links and access them easily',
+    sourceCodeHref: 'https://github.com/KAMAL-02/QuickLinks',
   },
   {
     imageSrc: '/images/project/Codehub.png',
@@ -50,6 +50,17 @@ export const topProjects = [
     tagline: 'A simple whatsapp inspired Chat App',
     sourceCodeHref: 'https://github.com/KAMAL-02/LinkUp',
     liveDemoHref: 'https://link-up-three.vercel.app/',
+  },
+  {
+    videoSrc:
+      'https://res.cloudinary.com/dpj8y0x4s/video/upload/v1729062244/20241016-0702-36.7349933_se5srd.mp4',
+    imageSrc: '/images/project/Pages.png',
+    title: 'Pages',
+    tags: ['Nextjs', 'Typescript', 'Shadcn UI', 'Accertnity UI', 'TailwindCSS'],
+    timeline: 'Aug 2024',
+    tagline: 'A website to read your favourite Mangas',
+    sourceCodeHref: 'https://github.com/KAMAL-02/Pages',
+    liveDemoHref: 'https://pages-nine-eta.vercel.app/',
   },
   {
     videoSrc:
