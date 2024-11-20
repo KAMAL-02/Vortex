@@ -14,7 +14,7 @@ const info = {
   description:
     'Full-Stack Developer, Next.js, Always Learning. Crafting web apps.',
   url: 'https://vortex-lemon.vercel.app/',
-  image: './public/images/avatar.jpeg',
+  image: './public/images/hakari-pfp.jpg',
 }
 
 export const metadata: Metadata = {
