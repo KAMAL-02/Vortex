@@ -12,7 +12,7 @@ const page = () => {
           {' '}
           <BlurFade delay={0.5}>
             <h1 className="mb-1 mt-0 text-3xl font-semibold dark:text-white">
-              Kamal Nayan Chaudhary
+              Kamal
             </h1>
           </BlurFade>
           <BlurFade delay={0.6}>

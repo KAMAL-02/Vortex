@@ -1,9 +1,13 @@
+import { FaLaptopCode } from 'react-icons/fa';
+
 type NavItems = {
   name: string
   href: string
 }[]
 
-export const navItems: NavItems = [{ name: 'Projects', href: '/projects' }]
+export const navItems: NavItems = [{ name: 'Projects', href: '/projects' },
+  { name: 'Experience', href: '/experience' }
+]
 
 export const topProjects = [
   {
@@ -79,5 +83,23 @@ export const topProjects = [
     tagline: 'Rent your spaces',
     sourceCodeHref: 'https://github.com/KAMAL-02/StayNest',
     liveDemoHref: 'https://staynest-zd60.onrender.com/listings',
+  },
+]
+
+export const experience = [
+  {
+    company: 'Living things',
+    role: 'Full Stack Developer',
+    location: 'Remote | Mumbai, India',
+    date: 'November 2024 - Current',
+    description: 'Working on bug fixes and implementing new features in the existing codebase.',
+    achievements: [
+      'Added validators on user input to improve data integrity',
+      'Fixed various bugs related to button functionality',
+      'Implemented a comprehensive navigation system in the existing codebase',
+      'Worked with Angular for frontend development',
+      'Utilized Node.js for backend development',
+    ],
+    icon: FaLaptopCode,
   },
 ]
