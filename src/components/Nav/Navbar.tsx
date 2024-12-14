@@ -6,7 +6,9 @@ import ThemeSwitch from '../shared/ThemeSwitch'
 import MobileNavBar from '../shared/MobileNavbar'
 import HamburgerMenu from '../shared/HamburgerMenu'
 
-const navItems = [{ name: 'Projects', href: '/projects' }]
+const navItems = [{ name: 'Experience', href: '/experience' },
+  { name: 'Projects', href: '/projects'},
+]
 
 const NavBar = () => {
   const path = usePathname()
