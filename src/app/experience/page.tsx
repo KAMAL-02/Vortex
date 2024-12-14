@@ -38,6 +38,7 @@ const page = () => {
         </svg>
       </div>
       <ExperienceCard />
+      <CdBack />
     </>
   )
 }
