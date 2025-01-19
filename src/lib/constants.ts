@@ -13,6 +13,18 @@ export const navItems: NavItems = [
 export const topProjects = [
   {
     videoSrc:
+      'https://res.cloudinary.com/dpj8y0x4s/video/upload/v1737220246/GItSense_ths9nu.mp4',
+    imageSrc: '/images/project/GitSense.png',
+    title: 'GitSense',
+    tags: ['Gemini', 'VsCode', 'Typescript', 'Extension', 'Github'],
+    timeline: 'Dec 2024',
+    tagline: 'Keeping Github commit chart lively',
+    sourceCodeHref: 'https://github.com/KAMAL-02/GitSense',
+    liveDemoHref:
+      'https://marketplace.visualstudio.com/items?itemName=KAMAL-02.gitsense',
+  },
+  {
+    videoSrc:
       'https://res.cloudinary.com/dpj8y0x4s/video/upload/v1729768737/20241024-1115-55.7242109_xfvxoe.mp4',
     imageSrc: '/images/project/Ellipsis.png',
     title: 'Ellipsis',
@@ -94,11 +106,11 @@ export const experience = [
     location: 'Remote | Mumbai, India',
     date: 'November 2024 - Current',
     description:
-      'Working on bug fixes and implementing new features in the existing codebase.',
+      'Improving efficiency and implementing new features in the existing codebase.',
     achievements: [
+      'Implemented a battery management system from scratch improving user experience by 30%',
       'Added validators to improve data integrity',
       'Implemented a comprehensive navigation system in the existing codebase',
-      'Minor bug fixes and enhancements in forms and user interface.',
       'More soon...',
     ],
     icon: FaLaptopCode,

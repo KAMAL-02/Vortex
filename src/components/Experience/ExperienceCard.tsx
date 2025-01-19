@@ -11,10 +11,10 @@ const ExperienceCard = () => {
             className="relative overflow-hidden rounded-lg border border-[#30363d] p-4 shadow-lg sm:p-6"
           >
             <div className="flex flex-col sm:flex-row sm:items-start sm:space-x-4">
-              <div className="mb-4 flex-shrink-0 sm:mb-0">
+              <div className="mb-4 shrink-0 sm:mb-0">
                 <job.icon className="text-3xl text-[#7a7876] sm:text-4xl" />
               </div>
-              <div className="flex-grow">
+              <div className="grow">
                 <div className="mb-2 flex flex-col sm:flex-row sm:items-start sm:justify-between">
                   <h3 className="mb-1 text-lg font-bold dark:text-white sm:mb-0 sm:text-xl">
                     {job.company}
@@ -34,7 +34,7 @@ const ExperienceCard = () => {
                 </p>
                 <div className="space-y-2">
                   <p className="text-sm font-semibold text-[#161616] dark:text-[#ffffff] sm:text-base">
-                    🔥 Key Achievements:
+                    Key Achievements:
                   </p>
                   <ul className="list-none space-y-2">
                     {job.achievements.map((achievement, i) => (

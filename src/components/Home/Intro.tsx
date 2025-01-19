@@ -7,12 +7,13 @@ export const Intro = () => {
     <section className="mt-8 text-zinc-600 dark:text-zinc-400">
       <div className="space-y-5 text-left">
         <p>
-          Hi, I&apos;m Kamal, a Full-Stack developer who likes crafting seamless
-          and intuitive{' '}
+          Hi, I&apos;m Kamal, a Full-Stack developer passionate about creating
+          seamless, intuitive and user-friendly{' '}
           <span className="bg-gradient-to-l from-purple-400 to-yellow-400 bg-clip-text text-transparent">
             APPLICATIONS
           </span>{' '}
-          with primary focus being on Next.js.
+          My primary focus is on creating solutions that add positive value to
+          the community.
         </p>
         <p>Currently, I&apos;m exploring Web3 and different technologies.</p>
         <div className="flex">
@@ -33,14 +34,14 @@ export const Intro = () => {
           Find me on Twitter at{' '}
           <Link
             href={'https://x.com/Kamal__Dev'}
-            className="wavvy underline-offset-2"
+            className="wavvy text-blue-500 underline-offset-2"
           >
             x.com
           </Link>{' '}
           or drop an{' '}
           <Link
             href={'mailto:Kamalnayan403@gmail.com'}
-            className="wavvy underline-offset-2"
+            className="wavvy text-blue-500 underline-offset-2"
           >
             email
           </Link>
